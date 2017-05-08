@@ -1,0 +1,167 @@
+body {
+	background-color: #0F141F;
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+/*  HEADER  */
+.hero-image {
+	padding-bottom: 2%;
+	width: 100%;
+}
+
+/*  BUTTON   */
+.btns {
+	display: inline-block;
+	background-color: #0F141F;
+	color: #ff7700;
+	margin: 0 25px 0 25px;
+}
+
+.btns_resume {
+	background-image: url(assets/Resume_Button.png);
+	width: 150px;
+	height: 55px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.btns_resume:hover {
+	background-image: url(assets/Resume_pressed@2x.png);
+}
+
+.btns_games {
+	background-image: url(assets/Games_Button.png);
+	width: 150px;
+	height: 55px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.btns_games:hover {
+	background-image: url(assets/Games_pressed@2x.png);
+}
+
+/*  CONTACT  */
+.icn {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	padding: 0 5px 0 5px;
+}
+
+.icn_linkedin {
+	background-image: url(assets/Linked_In_Button.png);
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icn_linkedin:hover {
+	background-image: url(assets/Linked_In_pressed@2x.png);
+}
+
+.icn_twitter {
+	background-image: url(assets/Twitter_Button.png);
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icn_twitter:hover {
+	background-image: url(assets/Twitter_pressed@2x.png);
+}
+
+.icn_mail {
+	background-image: url(assets/Email_Button.png);
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icn_mail:hover {
+	background-image: url(assets/Email_pressed@2x.png);
+}
+
+/*  TITLE & VIDEO  */
+.title {
+	padding: 20px 0 40px 0;
+	width: 100%;
+	text-align: center;
+}
+
+/*.player {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 100px;
+}*/
+
+.player-container {
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.player {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.player iframe, .player object, .player embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90%;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0;
+	margin: 0 5% 0 5%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+	text-align: center;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { 
+	content: ""; 
+	display: table; 
+}
+.group:after { 
+	clear: both;
+}
+.group { 
+	zoom: 1; /* For IE 6/7 */ 
+}
+
+/*  GRID OF THREE  */
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_3 { width: 100%; }
+	.player-container { margin-right: 5%; margin-left: 5%; }
+}
+
+
+
+
