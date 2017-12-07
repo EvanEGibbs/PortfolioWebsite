@@ -142,11 +142,11 @@ html {
 }
 
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 460px) {
 	body { background-image: url(assets/New_TopBar_mobile.png); }
 	.player-container { margin-right: 10px; margin-left: 10px; }
 	.container_button-wrap { display: block; }
-	.btns_resume { margin: 150px auto 0;}
+	.btns_resume { margin: 175px auto 0;}
 	.btns_games { margin: 0 auto 0;}
 }
 
