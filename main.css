@@ -149,6 +149,10 @@ html {
 	.btns_resume { margin: 150px auto 0;}
 	.btns_games { margin: 0 auto 0;}
 }
+
+@media only screen and (min-width: 1800px) {
+.btns { margin: 330px 25px 0 25px; }
+}
 /*  SECTIONS  */
 /*.section {
 	clear: both;
