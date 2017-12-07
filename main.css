@@ -142,7 +142,7 @@ html {
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 435px) {
 	body { background-image: url(assets/New_TopBar_mobile.png); }
 	.player-container { margin-right: 10px; margin-left: 10px; }
 	.container_button-wrap { display: block; }
@@ -150,7 +150,7 @@ html {
 	.btns_games { margin: 0 auto 0;}
 }
 
-@media only screen and (min-width: 1650px) {
+@media only screen and (min-width: 1620px) {
 .btns { margin: 330px 25px 0 25px; }
 }
 /*  SECTIONS  */
