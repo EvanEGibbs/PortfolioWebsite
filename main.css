@@ -142,7 +142,7 @@ html {
 }
 
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 560px) {
 	body { background-image: url(assets/New_TopBar_mobile.png); }
 	.player-container { margin-right: 10px; margin-left: 10px; }
 	.container_button-wrap { display: block; }
